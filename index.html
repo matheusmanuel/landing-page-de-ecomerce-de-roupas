@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Clothing Ecommerce</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> Shop. </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="ri-home-line"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#new" class="nav__link">
+                <i class="ri-price-tag-3-line"></i>
+                <span>New</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#collection" class="nav__link">
+                <i class="ri-compass-line"></i>
+                <span>Collection</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">
+                <i class="ri-t-shirt-line"></i>
+                <span>Products</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Theme change button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              Novas roupas <br />
+              Coleção
+            </h1>
+
+            <p class="home__description">
+              A nova coleção de roupas da<br />
+              as melhores marcas deste ano.
+            </p>
+
+            <a href="#" class="button__link">
+              Explorar <i class="ri-arrow-right-line"></i>
+            </a>
+          </div>
+
+          <div class="home__images">
+            <img src="assets/img/home1.png" alt="home image" />
+            <img src="assets/img/home2.png" alt="home image" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== NEW ====================-->
+      <section class="new section" id="new">
+        <h2 class="section__title">Novas categorias</h2>
+
+        <div class="new__container container grid">
+          <article class="new__card">
+            <img src="assets/img/new1.png" alt="new image" class="new__img" />
+
+            <a href="#" class="new__link">
+              <div class="new__data">
+                <h2 class="new__title">Moletom com capuz e moletom</h2>
+                <span> coleção de inverno </span>
+              </div>
+
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="new__card">
+            <img src="assets/img/new2.png" alt="new image" class="new__img" />
+
+            <a href="#" class="new__link">
+              <div class="new__data">
+                <h2 class="new__title">Calças e Jaquetas</h2>
+                <span> coleção de inverno </span>
+              </div>
+
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+          <article class="new__card">
+            <img src="assets/img/new3.png" alt="new image" class="new__img" />
+
+            <a href="#" class="new__link">
+              <div class="new__data">
+                <h2 class="new__title">Casacos e conjuntos de casacos</h2>
+                <span> coleção de inverno </span>
+              </div>
+
+              <i class="ri-arrow-right-line"></i>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== COLLECTION ====================-->
+      <section class="collection section" id="collection">
+        <div class="collection__container container">
+          <div class="collection__explore">
+            <div class="collection__data-men">
+              <h2 class="collection__title">
+                Homens <br />
+                coleção
+              </h2>
+              <a href="#" class="button__link">
+                Explorar roupas <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+
+            <img src="assets/img/collection1.png" alt="collection image" />
+          </div>
+          <div class="collection__explore">
+            <img src="assets/img/collection2.png" alt="collection image" />
+
+            <div class="collection__data-women">
+              <h2 class="collection__title">
+                Mulher <br />
+                Coleção
+              </h2>
+              <a href="#" class="button__link">
+                Explorar roupas <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PRODUCTS ====================-->
+      <section class="products section" id="products">
+        <h2 class="section__title">melhores produtos</h2>
+
+        <div class="products__container container swiper">
+          <div class="swiper-wrapper">
+            <article class="product__card swiper-slide">
+              <img
+                src="assets/img/product1.png"
+                alt="Product image"
+                class="products__img"
+              />
+
+              <h2 class="products__title">jaqueta preta gotland</h2>
+              <span class="products__price"> $124.99 </span>
+            </article>
+
+            <article class="product__card swiper-slide">
+              <img
+                src="assets/img/product2.png"
+                alt="Product image"
+                class="products__img"
+              />
+
+              <h2 class="products__title">Shorts esportivos pretos</h2>
+              <span class="products__price"> $34.99 </span>
+            </article>
+
+            <article class="product__card swiper-slide">
+              <img
+                src="assets/img/product3.png"
+                alt="Product image"
+                class="products__img"
+              />
+
+              <h2 class="products__title">Jaqueta acolchoada Knox</h2>
+              <span class="products__price"> $97.99 </span>
+            </article>
+
+            <article class="product__card swiper-slide">
+              <img
+                src="assets/img/product4.png"
+                alt="Product image"
+                class="products__img"
+              />
+
+              <h2 class="products__title">Calça esportiva azul</h2>
+              <span class="products__price"> $69.99 </span>
+            </article>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="ri-arrow-right-line"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="ri-arrow-left-line"></i>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== BRANDS ====================-->
+      <section class="brand section">
+        <h2 class="section__title">Marcas que vendemos</h2>
+
+        <div class="brand__container container grid">
+          <img
+            src="assets/img/logo1.png"
+            alt="Brand image"
+            class="brand__img"
+          />
+          <img
+            src="assets/img/logo2.png"
+            alt="Brand image"
+            class="brand__img"
+          />
+          <img
+            src="assets/img/logo3.png"
+            alt="Brand image"
+            class="brand__img"
+          />
+          <img
+            src="assets/img/logo4.png"
+            alt="Brand image"
+            class="brand__img"
+          />
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo"> Shop. </a>
+
+          <p class="footer__description">
+            Compromisso em trazer a você <br />
+            melhores roupas de populares <br />
+            marcas.
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">empresa</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Loja</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Categoria</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Informações de contato</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title">Blog</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Eventos</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Notícias populares</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Notícias Recentes</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title">Escritório</h3>
+
+            <p class="footer__information">
+              Monday - Saturday <br />
+              9AM - 10PM
+            </p>
+          </div>
+          <div>
+            <h3 class="footer__title">Nos contate</h3>
+
+            <ul class="footer__social">
+              <a href="https://www.facebook.com/" class="footer__social-link">
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/" class="footer__social-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://api.whatsapp.com/send?phone=43324323232&text=Hello, more information!"
+                class="footer__social-link"
+              >
+                <i class="ri-whatsapp-line"></i>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__info container">
+        <span class="footer__copy"> &#169;Matheus Manuel, All rigths reserved </span>
+
+        <a href="#" class="footer__privacy"> Terms & Conditions </a>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
